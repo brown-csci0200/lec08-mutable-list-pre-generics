@@ -10,6 +10,8 @@ public class NodeList extends AbsList {
         this.next = next;
     }
 
+    // addFirst implementation moved to abstract class AbsList
+
     public int length() {
         return 1 + this.next.length();
     }
